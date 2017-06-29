@@ -28,6 +28,17 @@
 	<param type="text" name="platron_id"  size="50" label="VMPAYMENT_PLATRON_ID" default="" description="VMPAYMENT_PLATRON_ID_DESC" />
     <param type="text" name="platron_secret"  size="50" label="VMPAYMENT_PLATRON_SECRET" default="" description="VMPAYMENT_PLATRON_SECRET_DESC" />
 	<param type="text" name="platron_life_time"  size="50" label="VMPAYMENT_PLATRON_LIFE_TIME" default="24" description="VMPAYMENT_PLATRON_LIFE_TIME_DESC" />
+	<param type="radio" name="platron_create_ofd_check" default="0" label="VMPAYMENT_PLATRON_CREATE_OFD_CHECK" description="VMPAYMENT_PLATRON_CREATE_OFD_CHECK_DESC">
+	    <option value="0">VMPAYMENT_PLATRON_CREATE_OFD_CHECK_0</option>
+	    <option value="1">VMPAYMENT_PLATRON_CREATE_OFD_CHECK_1</option>
+	</param>
+	<param type="radio" name="platron_ofd_vat" default="0" label="VMPAYMENT_PLATRON_OFD_VAT" description="VMPAYMENT_PLATRON_OFD_VAT_DESC">
+		<option value="0">0%</option>
+		<option value="10">10%</option>
+		<option value="18">18%</option>
+		<option value="110">10/110%</option>
+		<option value="180">18/118%</option>
+	</param>
 	<param name="status_pending" type="vmorderstate" scope="com_virtuemart" default="P" label="VMPAYMENT_PLATRON_STATUS_PENDING" description="VMPAYMENT_PLATRON_STATUS_PENDING_DESC" />
 	<param name="status_success" type="vmorderstate" scope="com_virtuemart" default="C" label="VMPAYMENT_PLATRON_STATUS_SUCCESS" description="VMPAYMENT_PLATRON_STATUS_SUCCESS_DESC" />
 	<param name="status_canceled" type="vmorderstate" scope="com_virtuemart" default="X" label="VMPAYMENT_PLATRON_STATUS_FAILED" description="VMPAYMENT_PLATRON_STATUS_FAILED_DESC" />
