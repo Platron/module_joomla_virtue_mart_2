@@ -17,6 +17,8 @@
 	<filename>index.html</filename>
 	<filename>platron.gif</filename>
 	<filename>PG_Signature.php</filename>
+    <filename>OfdReceiptItem.php</filename>
+    <filename>OfdReceiptRequest.php</filename>
     </files>
     <params addpath="/administrator/components/com_virtuemart/elements">
 	<param type="vmjpluginwarning" />
