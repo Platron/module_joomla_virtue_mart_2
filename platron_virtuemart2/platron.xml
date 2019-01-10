@@ -37,9 +37,9 @@
 	<param type="radio" name="platron_ofd_vat" default="0" label="VMPAYMENT_PLATRON_OFD_VAT" description="VMPAYMENT_PLATRON_OFD_VAT_DESC">
 		<option value="0">0%</option>
 		<option value="10">10%</option>
-		<option value="18">18%</option>
+		<option value="20">20%</option>
 		<option value="110">10/110%</option>
-		<option value="180">18/118%</option>
+		<option value="120">20/120%</option>
 	</param>
 	<param name="status_pending" type="vmorderstate" scope="com_virtuemart" default="P" label="VMPAYMENT_PLATRON_STATUS_PENDING" description="VMPAYMENT_PLATRON_STATUS_PENDING_DESC" />
 	<param name="status_success" type="vmorderstate" scope="com_virtuemart" default="C" label="VMPAYMENT_PLATRON_STATUS_SUCCESS" description="VMPAYMENT_PLATRON_STATUS_SUCCESS_DESC" />
